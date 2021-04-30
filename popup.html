@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的采集器</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/popup.css" />
+</head>
+<script src="js/popup.js" type="module"></script>
+
+<body>
+  <div class="popup-wrapper">
+    <div class="title">采集界面</div>
+    <ul class="content-box">
+      <li id="crawlerPageHtml" class="item">
+        <img class="icon" src="./imgs/html.png" />
+        <span class="text">获取页面HTML</span>
+      </li>
+      <li class="item">
+        <img class="icon" src="./imgs/cookie.png" />
+        <input class="input" id="cookieKey" type="text" placeholder="请输入key值">
+        <button class="btn" id="crawlerPageCookie">获取Cookie</button>
+      </li>
+      <li id="crawlerPageTitle" class="item">
+        <img class="icon" src="./imgs/title.png" />
+        <span class="text">获取页面标题</span>
+      </li>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

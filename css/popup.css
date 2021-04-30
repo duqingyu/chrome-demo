@@ -1,0 +1,55 @@
+.popup-wrapper {
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+}
+.popup-wrapper .title {
+  border-bottom: 1px dashed #55595f;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.popup-wrapper .content-box {
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #000;
+}
+.popup-wrapper .content-box li {
+  padding: 8px;
+  border-bottom: 1px dashed #55595f;
+  display: flex;
+  align-items: center;
+}
+.popup-wrapper .content-box li:hover {
+  cursor: pointer;
+  color: red;
+}
+.popup-wrapper .content-box li:last-child {
+  border-bottom: none;
+}
+.popup-wrapper .content-box .icon {
+  width: 14px;
+  height: 16px;
+}
+.popup-wrapper .content-box .text {
+  margin-left: 10px;
+}
+.popup-wrapper .content-box .input {
+  width: 100px;
+  padding: 2px;
+  margin-left: 10px;
+  outline:none;
+  border: none;
+  border-bottom: 1px solid #cac7c7;
+}
+.popup-wrapper .content-box .btn {
+  margin-left: 10px;
+  background-color: #ff7f93;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.popup-wrapper .content-box .btn:hover {
+  background-color: #e4556b;
+}

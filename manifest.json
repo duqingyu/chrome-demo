@@ -1,0 +1,41 @@
+{
+  "name": "crawler",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "author": "duqingyu",
+  "description": "crawler-demo",
+  "browser_action": {
+    "default_title": "我的谷歌插件",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "imgs/logo.png",
+    "24": "imgs/logo.png",
+    "48": "imgs/logo.png"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "notifications",
+    "cookies",
+    "http://*/*",
+    "https://*/*",
+    "declarativeContent"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*",
+        "http://*/*"
+      ],
+      "js": [
+        "js/clipboard.js",
+        "js/content_script.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}

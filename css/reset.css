@@ -1,0 +1,56 @@
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+body {
+  font: 20px 'SimSun', '宋体';
+  background-color: #fff;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+em {
+  font-style: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+p {
+  word-wrap: break-word;
+}
